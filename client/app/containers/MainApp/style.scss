@@ -1,0 +1,22 @@
+.base-content {
+  min-height: 100%;
+  margin-bottom: -100px;
+  &:after {
+    content: "";
+    display: block;
+    height: 100px;
+  }
+}
+.base-layout {
+  height: 100%;
+}
+
+.header {
+  padding: 0 30px;
+}
+
+.footer {
+  color:white;
+  height: 100px;
+  background: #444;
+}
