@@ -1,5 +1,10 @@
 # react-redux-sinatra-boilerplate
 
+##Install bundler if is not installed
+```
+gem install bundler
+```
+
 ##Run server
 ```
 cd server && bundle install
