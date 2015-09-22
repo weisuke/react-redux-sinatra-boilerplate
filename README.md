@@ -13,13 +13,13 @@ gem install bundler
 
 ##Run server
 ```
-cd react-redux-sinatra-boilerplate/server && bundle install
+cd server && bundle install
 bundle exec rackup
 ```
 
 ##Run client
 ```
-cd react-redux-sinatra-boilerplate/client && npm install
+cd ../client && npm install
 npm run dev
 ```
 
