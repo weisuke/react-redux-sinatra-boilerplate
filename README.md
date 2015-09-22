@@ -17,6 +17,11 @@ cd server && bundle install
 bundle exec rackup
 ```
 
+##Install node if you don't have installed
+```
+brew install node
+```
+
 ##Run client on a new terminal
 ```
 cd ../client && npm install
