@@ -13,7 +13,8 @@ import "./style.scss"
 class Dashboard extends Component {
 
     onSearchChange(query) {
-        this.props.history.pushState(null, '/main/dashboard', query)
+        let {history, location} = this.props
+        history.pushState(null, location.pathname, query)
     }
 
     render() {
@@ -56,8 +57,7 @@ class Dashboard extends Component {
 };
 
 function select(state, props) {
-    var { q } = props.location.query
-    q && (state.searchPanel.query = q)
+    state.searchPanel.query = props.location.query.q || "";
     return state
 }
 
