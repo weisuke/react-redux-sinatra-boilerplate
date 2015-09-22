@@ -17,7 +17,7 @@ cd server && bundle install
 bundle exec rackup
 ```
 
-##Run client
+##Run client on a new terminal
 ```
 cd ../client && npm install
 npm run dev
