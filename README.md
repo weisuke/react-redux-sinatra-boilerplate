@@ -28,4 +28,10 @@ cd ../client && npm install
 npm run dev
 ```
 
+##Run client with devtool
+```
+DEV_TOOL=enabled & npm run dev
+```
+
+
 Open http://localhost:9292
